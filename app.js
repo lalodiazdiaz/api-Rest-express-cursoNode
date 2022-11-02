@@ -50,7 +50,7 @@ const usuarios = [
 ];
 
 app.get("/", (req, res) => {
-  res.send("Hola mundo desde express");
+  res.send("Either es puto");
 }); //Peticion
 
 app.get("/api/usuarios", (req, res) => {
